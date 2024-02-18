@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue color */
+}
+
+.main-description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+}
