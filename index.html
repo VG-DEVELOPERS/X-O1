@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyDev</title>
+</head>
+<body>
+    <script>
+        const path = window.location.pathname.toLowerCase();
+        
+        if (path.includes('/xo')) {
+            window.location.href = 'xo/index.html';
+        } else if (path.includes('/2048')) {
+            window.location.href = '2048/index.html';
+        } else {
+            // Default behavior or redirection
+            // You can customize this part based on your requirements
+            console.log('Invalid path');
+        }
+    </script>
+</body>
+</html>
